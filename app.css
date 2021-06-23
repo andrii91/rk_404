@@ -1,0 +1,31 @@
+.svg_banner {
+  top: 50%;
+  transform: translateY(-50%);
+  width: calc(100% + 10px);
+  /*  box-shadow: 0px 4px 140px #FFFFFF;*/
+}
+
+@media screen and (min-width: 576px) and (max-width: 991px) {
+  .bg_banner h3 {
+    font-size: 45px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+
+
+  .svg_banner g path:first-child {
+    fill: #e2e2e2;
+  }
+  .svg_banner {
+    max-width: 30vw;
+    left: inherit;
+  }
+
+  .bg_banner h3 .text-white{
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, .6);
+  }
+  .bg_banner {
+    background: linear-gradient(90deg, #20a8d8 0%, rgba(255, 255, 255, .9) 68%);
+  }
+}
