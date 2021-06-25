@@ -6,15 +6,15 @@
 }
 
 @media screen and (min-width: 576px) and (max-width: 991px) {
-  .bg_banner h3 {
+/*  .bg_banner h3 {
     font-size: 45px;
-  }
+  }*/
 }
 
 @media screen and (max-width: 991px) {
 
 
-  .svg_banner g path:first-child {
+/*  .svg_banner g path:first-child {
     fill: #e2e2e2;
   }
   .svg_banner {
@@ -27,5 +27,5 @@
   }
   .bg_banner {
     background: linear-gradient(90deg, #20a8d8 0%, rgba(255, 255, 255, .9) 68%);
-  }
+  }*/
 }
